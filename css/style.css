@@ -143,10 +143,8 @@ footer {
 
 @media screen and (min-width: 1000px) {
     .collage .abouttext {
-        display: grid;
         grid-template-columns: 45% auto;
         grid-template-rows: auto;
-        align-items: center;
     }
 
     .collage .aboutpics {
@@ -161,7 +159,6 @@ footer {
     }
 
     .vacationpics {
-        display:flex;
         flex-direction: row-reverse;
         flex-wrap: wrap;
         align-items: center;
@@ -174,9 +171,6 @@ footer {
     }
     
     .vacationtext {
-        background-color: skyblue;
-        color: black;
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -184,18 +178,13 @@ footer {
 
 @media screen and (min-width: 1300px) {
     .collage .abouttext {
-        display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
-        align-items: center;
     }
 
     .collage .aboutpics {
-        grid-row: 2 / -1;
         grid-template-rows: auto auto;
         grid-template-columns: auto auto auto;
-        align-items: center;
-        justify-items: center;
     }
 
     .collage .abouttext p:nth-of-type(2) {
@@ -211,12 +200,7 @@ footer {
     }
 
     .vacationpics {
-        display:flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 80%;
-        margin: auto;
         justify-content: center;
     }
 
@@ -226,13 +210,5 @@ footer {
 
     .vacationpics img {
         width: 75%;
-    }
-    
-    .vacationtext {
-        background-color: skyblue;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }
